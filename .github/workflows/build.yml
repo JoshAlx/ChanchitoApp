@@ -31,6 +31,11 @@ jobs:
         with:
           python-version: '3.12'
 
+      # PASO NUEVO: Aceptar licencias de Android
+      - name: Accept Android Licenses
+        run: |
+          yes | flutter doctor --android-licenses
+
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
