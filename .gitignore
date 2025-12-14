@@ -1,0 +1,19 @@
+# Archivos de entorno virtual (Pesados e innecesarios)
+.venv/
+venv/
+env/
+
+# Base de datos local (La APK creará la suya propia nueva)
+*.db
+finanzas.db
+
+# Archivos compilados de Python (Basura)
+__pycache__/
+*.py[cod]
+
+# Configuración de PyCharm (Personal tuyo)
+.idea/
+
+# Carpetas de compilación de Flet/Android
+build/
+dist/
